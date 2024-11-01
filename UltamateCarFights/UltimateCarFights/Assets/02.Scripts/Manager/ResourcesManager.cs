@@ -10,6 +10,8 @@ namespace UltimateCartFights.Utility
         public List<Sprite> Characters;
         [Header("Cart Color Material")]
         public List<Material> ColorMaterials;
+        [Header("Network Objects")]
+        public GameObject Session;
 
         public static ResourcesManager Instance = null;
 
